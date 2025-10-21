@@ -1,4 +1,4 @@
-/* fondo con un gradiente */
+/* fondo */
 body {
     margin: 0;
     padding: 0;
@@ -9,14 +9,14 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* imagen de fondo */
+    /* imagen del fondo */
     background-image: url(fondo.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/*contenedor general */
+/*contenedor*/
 .contenedor {
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
