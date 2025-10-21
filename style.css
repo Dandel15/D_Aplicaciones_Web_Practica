@@ -1,0 +1,51 @@
+/* fondo con un gradiente */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* imagen de fondo */
+    background-image: url(fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*contenedor general */
+.contenedor {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* estilo del reloj */
+.reloj {
+    font-size: 80px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colores dinámicos */
+#hrs {
+    color: #00e6ff;
+}
+#min {
+    color: #ffea00;
+}
+#seg {
+    color: #45eb09;
+}
+
+/* animación sutil */
+.reloj span {
+    transition: all 0.3s ease;
+}
